@@ -1,0 +1,25 @@
+.directory-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .category-container {
+    min-width: 30%;
+    height: 24rem;
+    flex: 1 1 auto;
+    margin: 0 0.8rem 1.5rem;
+
+    &.large {
+      height: 38rem;
+    }
+
+    &:first-child {
+      margin-right: 0.8rem;
+    }
+
+    &:last-child {
+      margin-left: 0.8rem;
+    }
+  }
+}
